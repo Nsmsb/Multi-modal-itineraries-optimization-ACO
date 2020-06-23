@@ -1,0 +1,17 @@
+{
+  "name": "graph-generator",
+  "version": "1.0.0",
+  "description": "the aim of this progect is generating a transport graph in which arcs holds transport modes and it's time planning.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graph",
+    "generating-graphs",
+    "graph",
+    "theory"
+  ],
+  "author": "Nassim Sbaihia",
+  "license": "MIT"
+}

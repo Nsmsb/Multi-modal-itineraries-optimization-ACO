@@ -1,0 +1,459 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "adjacents": [
+        {
+          "id": 1,
+          "transportModes": {
+            "walk": { "distance": 7.189460183421348, "departs": [] },
+            "bus": { "distance": 5.380952822822818, "departs": [] },
+            "metro": { "distance": 3.5433942695355802, "departs": [] },
+            "tramway": {
+              "distance": 2.7303844316824333,
+              "departs": [
+                {
+                  "time": "08:00",
+                  "duration": 4,
+                  "price": 6.8135462477002795,
+                  "vehicle": "t0"
+                },
+                {
+                  "time": "08:20",
+                  "duration": 4,
+                  "price": 3.5741034763879465,
+                  "vehicle": "t0"
+                },
+                {
+                  "time": "08: 40",
+                  "duration": 4,
+                  "price": 5.069186613604762,
+                  "vehicle": "t0"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "transportModes": {
+            "walk": { "distance": 5.94382242128634, "departs": [] },
+            "bus": {
+              "distance": 7.56857548783054,
+              "departs": [
+                {
+                  "time": "08:10",
+                  "duration": 9,
+                  "price": 5.538653942667279,
+                  "vehicle": "b4"
+                },
+                {
+                  "time": "08:20",
+                  "duration": 9,
+                  "price": 6.350268126113894,
+                  "vehicle": "b4"
+                },
+                {
+                  "time": "08: 40",
+                  "duration": 9,
+                  "price": 5.028110264103132,
+                  "vehicle": "b4"
+                }
+              ]
+            },
+            "metro": { "distance": 1.8779110214452155, "departs": [] },
+            "tramway": { "distance": 4.265397757482273, "departs": [] }
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "adjacents": [
+        {
+          "id": 2,
+          "transportModes": {
+            "walk": { "distance": 8.43633118985235, "departs": [] },
+            "bus": { "distance": 7.612346527028102, "departs": [] },
+            "metro": { "distance": 5.174889986917062, "departs": [] },
+            "tramway": {
+              "distance": 7.9836845515380865,
+              "departs": [
+                {
+                  "time": "08:17",
+                  "duration": 9,
+                  "price": 2.3362000037648545,
+                  "vehicle": "t5"
+                },
+                {
+                  "time": "08:37",
+                  "duration": 9,
+                  "price": 3.4129670646078436,
+                  "vehicle": "t5"
+                },
+                {
+                  "time": "08: 50",
+                  "duration": 9,
+                  "price": 9.371228321353717,
+                  "vehicle": "t5"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "transportModes": {
+            "walk": { "distance": 2.0410799127583634, "departs": [] },
+            "bus": { "distance": 4.012776607374389, "departs": [] },
+            "metro": { "distance": 4.4581875233497765, "departs": [] },
+            "tramway": {
+              "distance": 2.2814067411166827,
+              "departs": [
+                {
+                  "time": "8:4",
+                  "duration": 4,
+                  "price": 4.629484060889036,
+                  "vehicle": "t0"
+                },
+                {
+                  "time": "8:24",
+                  "duration": 4,
+                  "price": 7.982568635826053,
+                  "vehicle": "t0"
+                },
+                {
+                  "time": "8:44",
+                  "duration": 4,
+                  "price": 4.061599141227907,
+                  "vehicle": "t0"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "transportModes": {
+            "walk": { "distance": 6.048966270193745, "departs": [] },
+            "bus": { "distance": 3.971820964066215, "departs": [] },
+            "metro": { "distance": 1.757896380686439, "departs": [] },
+            "tramway": { "distance": 8.449820343135343, "departs": [] }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "adjacents": [
+        {
+          "id": 4,
+          "transportModes": {
+            "walk": { "distance": 3.736112988142688, "departs": [] },
+            "bus": {
+              "distance": 2.5739092215249926,
+              "departs": [
+                {
+                  "time": "8:19",
+                  "duration": 4,
+                  "price": 4.325226162365512,
+                  "vehicle": "b4"
+                },
+                {
+                  "time": "8:29",
+                  "duration": 4,
+                  "price": 3.969527360572056,
+                  "vehicle": "b4"
+                },
+                {
+                  "time": "8:49",
+                  "duration": 4,
+                  "price": 0.41980858051602565,
+                  "vehicle": "b4"
+                }
+              ]
+            },
+            "metro": { "distance": 6.012663578046357, "departs": [] },
+            "tramway": {
+              "distance": 4.831462688128112,
+              "departs": [
+                {
+                  "time": "8:26",
+                  "duration": 6,
+                  "price": 8.279334917312823,
+                  "vehicle": "t5"
+                },
+                {
+                  "time": "8:46",
+                  "duration": 6,
+                  "price": 1.1985106635410747,
+                  "vehicle": "t5"
+                },
+                {
+                  "time": "8:59",
+                  "duration": 6,
+                  "price": 8.18084093568113,
+                  "vehicle": "t5"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "transportModes": {
+            "walk": { "distance": 9.092230771302255, "departs": [] },
+            "bus": { "distance": 4.6617460021182655, "departs": [] },
+            "metro": {
+              "distance": 4.060533196141467,
+              "departs": [
+                {
+                  "time": "08:15",
+                  "duration": 6,
+                  "price": 1.801538521300039,
+                  "vehicle": "m3"
+                },
+                {
+                  "time": "08:45",
+                  "duration": 6,
+                  "price": 5.350719839521023,
+                  "vehicle": "m3"
+                },
+                {
+                  "time": "09: 15",
+                  "duration": 6,
+                  "price": 6.564262212836818,
+                  "vehicle": "m3"
+                }
+              ]
+            },
+            "tramway": {
+              "distance": 4.967784504876436,
+              "departs": [
+                {
+                  "time": "08:10",
+                  "duration": 6,
+                  "price": 3.1393964831535137,
+                  "vehicle": "t1"
+                },
+                {
+                  "time": "08:30",
+                  "duration": 6,
+                  "price": 5.250939766130571,
+                  "vehicle": "t1"
+                },
+                {
+                  "time": "08: 50",
+                  "duration": 6,
+                  "price": 7.670331638645644,
+                  "vehicle": "t1"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "adjacents": [
+        {
+          "id": 4,
+          "transportModes": {
+            "walk": { "distance": 3.085822817173278, "departs": [] },
+            "bus": { "distance": 9.13601295383949, "departs": [] },
+            "metro": {
+              "distance": 2.0314185892624836,
+              "departs": [
+                {
+                  "time": "8:21",
+                  "duration": 4,
+                  "price": 1.828436799997979,
+                  "vehicle": "m3"
+                },
+                {
+                  "time": "8:51",
+                  "duration": 4,
+                  "price": 7.054970919217305,
+                  "vehicle": "m3"
+                },
+                {
+                  "time": "9:21",
+                  "duration": 4,
+                  "price": 4.5229863105770445,
+                  "vehicle": "m3"
+                }
+              ]
+            },
+            "tramway": {
+              "distance": 3.6515241515899977,
+              "departs": [
+                {
+                  "time": "8:16",
+                  "duration": 5,
+                  "price": 3.700347584475967,
+                  "vehicle": "t1"
+                },
+                {
+                  "time": "8:36",
+                  "duration": 5,
+                  "price": 1.140335736675444,
+                  "vehicle": "t1"
+                },
+                {
+                  "time": "8:56",
+                  "duration": 5,
+                  "price": 5.0145644800160944,
+                  "vehicle": "t1"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "transportModes": {
+            "walk": { "distance": 1.8106379535125505, "departs": [] },
+            "bus": { "distance": 7.4074997753294625, "departs": [] },
+            "metro": {
+              "distance": 1.4514182837063738,
+              "departs": [
+                {
+                  "time": "8:6",
+                  "duration": 3,
+                  "price": 6.858358390171069,
+                  "vehicle": "m2"
+                },
+                {
+                  "time": "8:36",
+                  "duration": 3,
+                  "price": 5.7596510001652,
+                  "vehicle": "m2"
+                },
+                {
+                  "time": "9:6",
+                  "duration": 3,
+                  "price": 0.26653478619109494,
+                  "vehicle": "m2"
+                }
+              ]
+            },
+            "tramway": { "distance": 9.773593769918667, "departs": [] }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "adjacents": [
+        {
+          "id": 3,
+          "transportModes": {
+            "walk": { "distance": 8.689248608731152, "departs": [] },
+            "bus": {
+              "distance": 2.873170855933631,
+              "departs": [
+                {
+                  "time": "8:23",
+                  "duration": 4,
+                  "price": 0.592936500750314,
+                  "vehicle": "b4"
+                },
+                {
+                  "time": "8:33",
+                  "duration": 4,
+                  "price": 4.751592262408888,
+                  "vehicle": "b4"
+                },
+                {
+                  "time": "8:53",
+                  "duration": 4,
+                  "price": 9.130729884517176,
+                  "vehicle": "b4"
+                }
+              ]
+            },
+            "metro": {
+              "distance": 4.597315824239616,
+              "departs": [
+                {
+                  "time": "08:00",
+                  "duration": 6,
+                  "price": 1.8062991474747547,
+                  "vehicle": "m2"
+                },
+                {
+                  "time": "08:30",
+                  "duration": 6,
+                  "price": 7.959836775418079,
+                  "vehicle": "m2"
+                },
+                {
+                  "time": "09: 00",
+                  "duration": 6,
+                  "price": 1.5754269247236774,
+                  "vehicle": "m2"
+                }
+              ]
+            },
+            "tramway": { "distance": 6.28499562019403, "departs": [] }
+          }
+        },
+        {
+          "id": 5,
+          "transportModes": {
+            "walk": { "distance": 2.7406241140913634, "departs": [] },
+            "bus": { "distance": 8.748678826275116, "departs": [] },
+            "metro": {
+              "distance": 4.904633625218047,
+              "departs": [
+                {
+                  "time": "8:25",
+                  "duration": 6,
+                  "price": 3.5021790988951507,
+                  "vehicle": "m3"
+                },
+                {
+                  "time": "8:55",
+                  "duration": 6,
+                  "price": 1.0915257794627342,
+                  "vehicle": "m3"
+                },
+                {
+                  "time": "9:25",
+                  "duration": 6,
+                  "price": 5.531469972555312,
+                  "vehicle": "m3"
+                }
+              ]
+            },
+            "tramway": {
+              "distance": 0.1945143084266454,
+              "departs": [
+                {
+                  "time": "8:32",
+                  "duration": 2,
+                  "price": 9.367469721521724,
+                  "vehicle": "t5"
+                },
+                {
+                  "time": "8:52",
+                  "duration": 2,
+                  "price": 9.465653964202454,
+                  "vehicle": "t5"
+                },
+                {
+                  "time": "9:5",
+                  "duration": 2,
+                  "price": 1.222715655665494,
+                  "vehicle": "t5"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    { "id": 5, "adjacents": [] }
+  ]
+}

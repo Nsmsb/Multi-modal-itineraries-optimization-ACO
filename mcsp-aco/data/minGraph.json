@@ -1,0 +1,87 @@
+[
+    {
+        "id": 0,
+        "type": "city",
+        "name": "A",
+        "adjacencyList": [
+            {
+                "destination": 1,
+                "distance": "10"
+            },
+            {
+                "destination": 2,
+                "distance": "20"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "type": "intersection",
+        "name": "B",
+        "adjacencyList": [
+            {
+                "destination": 2,
+                "distance": "3"
+            },
+            {
+                "destination": 4,
+                "distance": "10"
+            },
+            {
+                "destination": 3,
+                "distance": "8"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "intersection",
+        "name": "C",
+        "adjacencyList": [
+            {
+                "destination": 4,
+                "distance": "7"
+            },
+            {
+                "destination": 3,
+                "distance": "15"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "intersection",
+        "name": "D",
+        "adjacencyList": [
+            {
+                "destination": 4,
+                "distance": "14"
+            },
+            {
+                "destination": 5,
+                "distance": "5"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "intersection",
+        "name": "E",
+        "adjacencyList": [
+            {
+                "destination": 3,
+                "distance": "8"
+            },
+            {
+                "destination": 5,
+                "distance": "9"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "intersection",
+        "name": "F",
+        "adjacencyList": []
+      }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "id": 0,
+        "type": "intersection",
+        "name": "Golconda",
+        "adjacencyList": [
+          {
+            "destination": 1,
+            "distance": "4.717"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "type": "intersection",
+        "name": "Golconda",
+        "adjacencyList": [
+          {
+            "destination": 2,
+            "distance": "13.717"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "intersection",
+        "name": "Golconda",
+        "adjacencyList": [
+          {
+            "destination": 3,
+            "distance": "7.717"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "intersection",
+        "name": "Golconda",
+        "adjacencyList": [
+          {
+            "destination": 4,
+            "distance": "17"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "intersection",
+        "name": "Golconda",
+        "adjacencyList": [
+          {
+            "destination": 5,
+            "distance": "13"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "intersection",
+        "name": "Golconda",
+        "adjacencyList": [
+          {
+            "destination": 0,
+            "distance": "6.9"
+          }
+        ]
+      }
+]

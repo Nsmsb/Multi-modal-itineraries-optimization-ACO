@@ -1,0 +1,1420 @@
+[
+    {
+      "id": 0,
+      "type": "station",
+      "name": "vaise",
+      "adjacencyList": [{ "destination": 1, "distance": 6.140983565277223 }]
+    },
+    {
+      "id": 1,
+      "type": "city",
+      "name": "valmy",
+      "adjacencyList": [
+        { "destination": 2, "distance": 8.637922934042532 },
+        { "destination": 0, "distance": 8.848236524591861 }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "station",
+      "name": "gorge de loup",
+      "adjacencyList": [
+        { "destination": 3, "distance": 7.182048888220519 },
+        { "destination": 1, "distance": 9.739093142195214 }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "business agency,intersection",
+      "name": "vieux lyon",
+      "adjacencyList": [
+        { "destination": 2, "distance": 4.864506765214546 },
+        { "destination": 4, "distance": 3.533516622622747 },
+        { "destination": 144, "distance": 4.565731525179938 },
+        { "destination": 83, "distance": 9.004105335618108 }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "business agency,intersection",
+      "name": "bellecour",
+      "adjacencyList": [
+        { "destination": 3, "distance": 6.416227357268408 },
+        { "destination": 5, "distance": 6.313033960322175 },
+        { "destination": 28, "distance": 6.808314930676289 },
+        { "destination": 29, "distance": 6.191144493510446 },
+        { "destination": 15, "distance": 5.230402108765702 }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "intersection",
+      "name": "guillotére gabriel peri",
+      "adjacencyList": [
+        { "destination": 4, "distance": 4.283820749065898 },
+        { "destination": 6, "distance": 6.340091512223692 },
+        { "destination": 97, "distance": 3.1995164384023695 },
+        { "destination": 98, "distance": 5.820566078756528 }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "intersection",
+      "name": "sax-gambetta",
+      "adjacencyList": [
+        { "destination": 5, "distance": 8.942745739157614 },
+        { "destination": 7, "distance": 2.5810543209987724 },
+        { "destination": 23, "distance": 9.714747529102075 },
+        { "destination": 24, "distance": 9.305655497889973 }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "city",
+      "name": "garibaldi",
+      "adjacencyList": [
+        { "destination": 6, "distance": 5.912833771673965 },
+        { "destination": 8, "distance": 2.7114538919651032 }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "city",
+      "name": "sans-souci",
+      "adjacencyList": [
+        { "destination": 7, "distance": 2.5553546822522293 },
+        { "destination": 9, "distance": 4.536856066454163 }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "city",
+      "name": "monplaisir-lumière",
+      "adjacencyList": [
+        { "destination": 8, "distance": 9.694121625949784 },
+        { "destination": 10, "distance": 3.3584256173437765 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "agence commerciale TCL",
+      "name": "grange blanche",
+      "adjacencyList": [
+        { "destination": 9, "distance": 9.304220392796429 },
+        { "destination": 11, "distance": 2.0693247497613214 },
+        { "destination": 81, "distance": 5.528613648894293 },
+        { "destination": 69, "distance": 9.442364229744106 }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "city",
+      "name": "laennec",
+      "adjacencyList": [
+        { "destination": 10, "distance": 6.892928024911576 },
+        { "destination": 12, "distance": 8.258129252527372 }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "city",
+      "name": "mermoz pinel",
+      "adjacencyList": [
+        { "destination": 11, "distance": 5.142770142162185 },
+        { "destination": 13, "distance": 3.1675467672039925 }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "parc relais TCL",
+      "name": "parilly",
+      "adjacencyList": [
+        { "destination": 12, "distance": 3.3191755402373175 },
+        { "destination": 14, "distance": 5.397737350138236 }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "gare",
+      "name": "gare de vénissieux,parc relais TCL",
+      "adjacencyList": [
+        { "destination": 13, "distance": 7.558314734693681 },
+        { "destination": 45, "distance": 3.380387527433255 },
+        { "destination": 46, "distance": 5.807492846069795 }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "parc relais TCL",
+      "name": "cuire",
+      "adjacencyList": [
+        { "destination": 16, "distance": 9.648955048452835 },
+        { "destination": 4, "distance": 5.230402108765702 },
+        { "destination": 143, "distance": 5.887348702948847 }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "city",
+      "name": "henon",
+      "adjacencyList": [
+        { "destination": 15, "distance": 8.300503172525541 },
+        { "destination": 17, "distance": 7.488994886853323 }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "agence commerciale TCL",
+      "name": "croix-rousse",
+      "adjacencyList": [
+        { "destination": 16, "distance": 9.337313662744162 },
+        { "destination": 18, "distance": 2.7383226276483636 }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "city",
+      "name": "croix-paquet",
+      "adjacencyList": [
+        { "destination": 17, "distance": 5.920649119567662 },
+        { "destination": 19, "distance": 4.909903553684504 }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "agence commerciale TCL",
+      "name": "hotel de ville luis pradel",
+      "adjacencyList": [
+        { "destination": 18, "distance": 6.514817761185023 },
+        { "destination": 30, "distance": 6.24346222473782 },
+        { "destination": 29, "distance": 5.255750360760944 },
+        { "destination": 139, "distance": 8.699741770645556 },
+        { "destination": 141, "distance": 6.291439405149422 }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "city",
+      "name": "charpennes charles hernu",
+      "adjacencyList": [
+        { "destination": 21, "distance": 6.419365020434119 },
+        { "destination": 31, "distance": 7.711031603863182 },
+        { "destination": 32, "distance": 6.585637604020592 },
+        { "destination": 103, "distance": 3.8851503011177133 },
+        { "destination": 104, "distance": 8.650728048737038 }
+      ]
+    },
+    {
+      "id": 21,
+      "type": "intersection",
+      "name": "brotteaux",
+      "adjacencyList": [
+        { "destination": 20, "distance": 8.842933675623248 },
+        { "destination": 22, "distance": 2.8951405463316338 },
+        { "destination": 133, "distance": 4.797735118666944 },
+        { "destination": 145, "distance": 7.778821459019397 }
+      ]
+    },
+    {
+      "id": 22,
+      "type": "gare",
+      "name": "gare part-dieu -vivier -merle villette",
+      "adjacencyList": [
+        { "destination": 21, "distance": 3.359006704226891 },
+        { "destination": 23, "distance": 5.223020500600187 },
+        { "destination": 101, "distance": 2.5403374905425657 },
+        { "destination": 102, "distance": 3.40941096258533 },
+        { "destination": 37, "distance": 5.867490169837273 },
+        { "destination": 56, "distance": 6.242506765778657 },
+        { "destination": 102, "distance": 2.9882374643282663 }
+      ]
+    },
+    {
+      "id": 23,
+      "type": "city",
+      "name": "place guichard bourse de travail",
+      "adjacencyList": [
+        { "destination": 22, "distance": 5.314955155045363 },
+        { "destination": 6, "distance": 6.269670707867636 }
+      ]
+    },
+    {
+      "id": 24,
+      "type": "gare",
+      "name": "jean macé",
+      "adjacencyList": [
+        { "destination": 6, "distance": 5.758301452449199 },
+        { "destination": 25, "distance": 5.632892108800524 },
+        { "destination": 64, "distance": 5.5848811927696715 },
+        { "destination": 65, "distance": 2.2932280956265867 }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "city",
+      "name": "place jean jaurés",
+      "adjacencyList": [
+        { "destination": 24, "distance": 9.625118806413576 },
+        { "destination": 26, "distance": 6.487926814363522 }
+      ]
+    },
+    {
+      "id": 26,
+      "type": "city",
+      "name": "debourg",
+      "adjacencyList": [
+        { "destination": 25, "distance": 6.251553385560314 },
+        { "destination": 27, "distance": 7.930587996924281 }
+      ]
+    },
+    {
+      "id": 27,
+      "type": "parc relais TCL",
+      "name": "stade de gerland",
+      "adjacencyList": [{ "destination": 26, "distance": 5.985573110006467 }]
+    },
+    {
+      "id": 28,
+      "type": "city",
+      "name": "ampère vector hugo",
+      "adjacencyList": [
+        { "destination": 4, "distance": 8.0327253556788 },
+        { "destination": 94, "distance": 7.342189871505106 }
+      ]
+    },
+    {
+      "id": 29,
+      "type": "city",
+      "name": "cordelliers",
+      "adjacencyList": [
+        { "destination": 4, "distance": 2.7175291321226194 },
+        { "destination": 19, "distance": 2.8207117745265293 },
+        { "destination": 137, "distance": 7.342872295305602 },
+        { "destination": 139, "distance": 9.093271210036685 }
+      ]
+    },
+    {
+      "id": 30,
+      "type": "city",
+      "name": "foch",
+      "adjacencyList": [
+        { "destination": 31, "distance": 6.5272554525610555 },
+        { "destination": 19, "distance": 2.0371473483354947 }
+      ]
+    },
+    {
+      "id": 31,
+      "type": "city",
+      "name": "masséna",
+      "adjacencyList": [
+        { "destination": 20, "distance": 7.498396636328151 },
+        { "destination": 30, "distance": 4.165519253104492 }
+      ]
+    },
+    {
+      "id": 32,
+      "type": "city",
+      "name": "république-villeurbanne",
+      "adjacencyList": [
+        { "destination": 20, "distance": 4.003447305590614 },
+        { "destination": 33, "distance": 4.51373399742582 }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "city",
+      "name": "gratte-ciel",
+      "adjacencyList": [
+        { "destination": 32, "distance": 6.471559989007723 },
+        { "destination": 34, "distance": 7.778849135663599 }
+      ]
+    },
+    {
+      "id": 34,
+      "type": "city",
+      "name": "flachet",
+      "adjacencyList": [
+        { "destination": 33, "distance": 5.882637202883693 },
+        { "destination": 35, "distance": 2.6404730816047017 }
+      ]
+    },
+    {
+      "id": 35,
+      "type": "city",
+      "name": "cusset",
+      "adjacencyList": [
+        { "destination": 34, "distance": 8.139590966261618 },
+        { "destination": 36, "distance": 9.171612097146706 }
+      ]
+    },
+    {
+      "id": 36,
+      "type": "centre commerciale TCL",
+      "name": "l.bonnevay",
+      "adjacencyList": [
+        { "destination": 35, "distance": 8.524799886912351 },
+        { "destination": 37, "distance": 8.023718896033571 },
+        { "destination": 119, "distance": 4.909904095672362 },
+        { "destination": 121, "distance": 6.548067065443796 }
+      ]
+    },
+    {
+      "id": 37,
+      "type": "parc relais TCL",
+      "name": "vaulx la soie",
+      "adjacencyList": [
+        { "destination": 36, "distance": 3.106514788356984 },
+        { "destination": 40, "distance": 2.642959114490589 },
+        { "destination": 22, "distance": 4.097210441489841 },
+        { "destination": 59, "distance": 5.269150981105989 },
+        { "destination": 60, "distance": 3.206134789038833 },
+        { "destination": 63, "distance": 2.9431090912164617 }
+      ]
+    },
+    {
+      "id": 38,
+      "type": "city",
+      "name": "jet d'eau mendès france",
+      "adjacencyList": [
+        { "destination": 39, "distance": 5.232383399630113 },
+        { "destination": 66, "distance": 2.710139470988306 },
+        { "destination": 67, "distance": 6.943034099160117 }
+      ]
+    },
+    {
+      "id": 39,
+      "type": "route",
+      "name": "lycée lumière",
+      "adjacencyList": [
+        { "destination": 38, "distance": 8.842050268106757 },
+        { "destination": 41, "distance": 7.919852741906938 }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "gare",
+      "name": "aéroport lyon-saint exupéry",
+      "adjacencyList": [
+        { "destination": 63, "distance": 3.3964253976011367 },
+        { "destination": 37, "distance": 2.5131496259256814 }
+      ]
+    },
+    {
+      "id": 41,
+      "type": "route",
+      "name": "états unis musée tony garnier",
+      "adjacencyList": [
+        { "destination": 39, "distance": 2.186602220835642 },
+        { "destination": 42, "distance": 5.800553795951608 }
+      ]
+    },
+    {
+      "id": 42,
+      "type": "route",
+      "name": "proffesseur beauvisage-cisl",
+      "adjacencyList": [
+        { "destination": 41, "distance": 8.85305206477957 },
+        { "destination": 43, "distance": 5.010617272133901 }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "route",
+      "name": "états-unis viviani",
+      "adjacencyList": [
+        { "destination": 42, "distance": 2.0632822873603676 },
+        { "destination": 44, "distance": 3.0632719836784403 }
+      ]
+    },
+    {
+      "id": 44,
+      "type": "route",
+      "name": "joliot curie marcel sembat",
+      "adjacencyList": [
+        { "destination": 43, "distance": 6.279445254032787 },
+        { "destination": 45, "distance": 9.065842130458476 }
+      ]
+    },
+    {
+      "id": 45,
+      "type": "route",
+      "name": "la borelle",
+      "adjacencyList": [
+        { "destination": 44, "distance": 8.449513942421827 },
+        { "destination": 14, "distance": 3.380387527433255 }
+      ]
+    },
+    {
+      "id": 46,
+      "type": "route",
+      "name": "croizat-paul bert",
+      "adjacencyList": [
+        { "destination": 14, "distance": 5.807492846069795 },
+        { "destination": 47, "distance": 9.924254716434081 }
+      ]
+    },
+    {
+      "id": 47,
+      "type": "route",
+      "name": "marcel houel hotel d ville",
+      "adjacencyList": [
+        { "destination": 46, "distance": 4.118553181788387 },
+        { "destination": 48, "distance": 6.701058931452019 }
+      ]
+    },
+    {
+      "id": 48,
+      "type": "route",
+      "name": "lycée jacques brel",
+      "adjacencyList": [
+        { "destination": 47, "distance": 3.2276728793996856 },
+        { "destination": 49, "distance": 6.969442589249894 }
+      ]
+    },
+    {
+      "id": 49,
+      "type": "route",
+      "name": "herriot-cagne",
+      "adjacencyList": [
+        { "destination": 48, "distance": 7.0601474430986695 },
+        { "destination": 50, "distance": 7.249251014113536 }
+      ]
+    },
+    {
+      "id": 50,
+      "type": "route",
+      "name": "vénissy",
+      "adjacencyList": [
+        { "destination": 49, "distance": 8.736250333006065 },
+        { "destination": 51, "distance": 9.461097452365452 }
+      ]
+    },
+    {
+      "id": 51,
+      "type": "route",
+      "name": "division leclerc",
+      "adjacencyList": [
+        { "destination": 50, "distance": 5.83889542214855 },
+        { "destination": 52, "distance": 7.494825265110917 }
+      ]
+    },
+    {
+      "id": 52,
+      "type": "route",
+      "name": "maurice thorez",
+      "adjacencyList": [
+        { "destination": 51, "distance": 3.527844445009288 },
+        { "destination": 53, "distance": 7.757738836610008 }
+      ]
+    },
+    {
+      "id": 53,
+      "type": "route",
+      "name": "lénine corcière",
+      "adjacencyList": [
+        { "destination": 52, "distance": 4.4620397151794595 },
+        { "destination": 54, "distance": 4.861675500451094 }
+      ]
+    },
+    {
+      "id": 54,
+      "type": "route",
+      "name": "darnaise",
+      "adjacencyList": [
+        { "destination": 53, "distance": 2.6142907515242904 },
+        { "destination": 55, "distance": 3.574816132013936 }
+      ]
+    },
+    {
+      "id": 55,
+      "type": "route",
+      "name": "hopitale feyzin vénissieux",
+      "adjacencyList": [{ "destination": 54, "distance": 8.67791333816571 }]
+    },
+    {
+      "id": 56,
+      "type": "route",
+      "name": "dauphiné lacassagne",
+      "adjacencyList": [
+        { "destination": 57, "distance": 2.7139333973437196 },
+        { "destination": 22, "distance": 7.343832871521418 }
+      ]
+    },
+    {
+      "id": 57,
+      "type": "route",
+      "name": "reconnaissance balzac",
+      "adjacencyList": [
+        { "destination": 56, "distance": 9.590001955465317 },
+        { "destination": 58, "distance": 4.516665442880175 }
+      ]
+    },
+    {
+      "id": 58,
+      "type": "route",
+      "name": "gare de villeurbanne",
+      "adjacencyList": [
+        { "destination": 57, "distance": 6.528019855950738 },
+        { "destination": 59, "distance": 8.17617561429707 }
+      ]
+    },
+    {
+      "id": 59,
+      "type": "route",
+      "name": "bel air-les brosses",
+      "adjacencyList": [
+        { "destination": 58, "distance": 4.799905172854821 },
+        { "destination": 37, "distance": 9.157233065258202 }
+      ]
+    },
+    {
+      "id": 60,
+      "type": "parc relais TCL",
+      "name": "décines centre",
+      "adjacencyList": [
+        { "destination": 37, "distance": 9.501335504528575 },
+        { "destination": 61, "distance": 2.2034950261120354 }
+      ]
+    },
+    {
+      "id": 61,
+      "type": "parc relais TCL",
+      "name": "décines grand large",
+      "adjacencyList": [
+        { "destination": 60, "distance": 9.478611302969885 },
+        { "destination": 62, "distance": 8.260275698235388 }
+      ]
+    },
+    {
+      "id": 62,
+      "type": "parc relais TCL",
+      "name": "meyzieu gare",
+      "adjacencyList": [
+        { "destination": 61, "distance": 6.4092747792225175 },
+        { "destination": 63, "distance": 4.170615668233037 }
+      ]
+    },
+    {
+      "id": 63,
+      "type": "parc relais TCL",
+      "name": "meyzieu z.i.",
+      "adjacencyList": [
+        { "destination": 62, "distance": 4.560287562006581 },
+        { "destination": 37, "distance": 2.9431090912164617 },
+        { "destination": 40, "distance": 5.471987379723496 }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "route",
+      "name": "centre berthelot",
+      "adjacencyList": [
+        { "destination": 24, "distance": 4.661059371339919 },
+        { "destination": 94, "distance": 2.0524904561690906 }
+      ]
+    },
+    {
+      "id": 65,
+      "type": "route",
+      "name": "garibaldi-berthelot",
+      "adjacencyList": [
+        { "destination": 24, "distance": 3.680578667786971 },
+        { "destination": 66, "distance": 7.119914243005663 }
+      ]
+    },
+    {
+      "id": 66,
+      "type": "route",
+      "name": "route de vienne",
+      "adjacencyList": [
+        { "destination": 65, "distance": 7.779528422580263 },
+        { "destination": 38, "distance": 5.520830997812762 }
+      ]
+    },
+    {
+      "id": 67,
+      "type": "route",
+      "name": "villon",
+      "adjacencyList": [
+        { "destination": 38, "distance": 5.911014284384732 },
+        { "destination": 68, "distance": 4.078373731784971 }
+      ]
+    },
+    {
+      "id": 68,
+      "type": "route",
+      "name": "bachut mairie du 8 éme",
+      "adjacencyList": [
+        { "destination": 67, "distance": 2.0400574344953615 },
+        { "destination": 81, "distance": 3.5827727749277383 }
+      ]
+    },
+    {
+      "id": 69,
+      "type": "route",
+      "name": "ambroise paré",
+      "adjacencyList": [
+        { "destination": 10, "distance": 7.97740797538351 },
+        { "destination": 70, "distance": 4.963648006589837 }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "route",
+      "name": "vinatier",
+      "adjacencyList": [
+        { "destination": 69, "distance": 3.6746966027803722 },
+        { "destination": 71, "distance": 2.51654741315161 }
+      ]
+    },
+    {
+      "id": 71,
+      "type": "route",
+      "name": "essarts-iris",
+      "adjacencyList": [
+        { "destination": 70, "distance": 7.781470194894101 },
+        { "destination": 72, "distance": 4.527505322727732 }
+      ]
+    },
+    {
+      "id": 72,
+      "type": "route",
+      "name": "boutasse-camille rousset",
+      "adjacencyList": [
+        { "destination": 71, "distance": 4.781495796597621 },
+        { "destination": 73, "distance": 8.34424185425076 }
+      ]
+    },
+    {
+      "id": 73,
+      "type": "route",
+      "name": "hotel de ville-bron",
+      "adjacencyList": [
+        { "destination": 72, "distance": 8.573866976569072 },
+        { "destination": 74, "distance": 7.4068647243295676 }
+      ]
+    },
+    {
+      "id": 74,
+      "type": "route",
+      "name": "les alizés",
+      "adjacencyList": [
+        { "destination": 73, "distance": 4.658149156234028 },
+        { "destination": 75, "distance": 2.8678517025064867 }
+      ]
+    },
+    {
+      "id": 75,
+      "type": "route",
+      "name": "rebufer",
+      "adjacencyList": [
+        { "destination": 74, "distance": 3.6234812318882703 },
+        { "destination": 76, "distance": 9.92746647203745 }
+      ]
+    },
+    {
+      "id": 76,
+      "type": "route",
+      "name": "parilly université-hippodrome",
+      "adjacencyList": [
+        { "destination": 75, "distance": 3.161314621347861 },
+        { "destination": 78, "distance": 6.40610649148153 }
+      ]
+    },
+    {
+      "id": 77,
+      "type": "city",
+      "name": "st just",
+      "adjacencyList": [{ "destination": 83, "distance": 3.0706126659740214 }]
+    },
+    {
+      "id": 78,
+      "type": "route",
+      "name": "europe-université",
+      "adjacencyList": [
+        { "destination": 76, "distance": 4.941530993204154 },
+        { "destination": 79, "distance": 5.591084875306882 }
+      ]
+    },
+    {
+      "id": 79,
+      "type": "parc relais TCL",
+      "name": "port des alpes",
+      "adjacencyList": [
+        { "destination": 78, "distance": 4.681355342752886 },
+        { "destination": 80, "distance": 4.588016098454197 }
+      ]
+    },
+    {
+      "id": 80,
+      "type": "route",
+      "name": "parc technologique",
+      "adjacencyList": [
+        { "destination": 79, "distance": 7.064430990123478 },
+        { "destination": 82, "distance": 8.37405250577802 }
+      ]
+    },
+    {
+      "id": 81,
+      "type": "route",
+      "name": "jean 23 maryse bastié",
+      "adjacencyList": [
+        { "destination": 10, "distance": 6.683407235534149 },
+        { "destination": 68, "distance": 2.794843028487909 }
+      ]
+    },
+    {
+      "id": 82,
+      "type": "route",
+      "name": "hauts de feuilly",
+      "adjacencyList": [
+        { "destination": 80, "distance": 2.3342004059679784 },
+        { "destination": 84, "distance": 2.740809342576627 }
+      ]
+    },
+    {
+      "id": 83,
+      "type": "théatres romains",
+      "name": "minimes",
+      "adjacencyList": [
+        { "destination": 77, "distance": 9.123246255966183 },
+        { "destination": 3, "distance": 9.371392361282098 }
+      ]
+    },
+    {
+      "id": 84,
+      "type": "route",
+      "name": "salvador allende",
+      "adjacencyList": [
+        { "destination": 82, "distance": 2.705189744651406 },
+        { "destination": 85, "distance": 2.037584242982385 }
+      ]
+    },
+    {
+      "id": 85,
+      "type": "route",
+      "name": "alfred de vigny",
+      "adjacencyList": [
+        { "destination": 84, "distance": 2.5837324667907406 },
+        { "destination": 86, "distance": 5.030240342148188 }
+      ]
+    },
+    {
+      "id": 86,
+      "type": "route",
+      "name": "st-priest-hotel de ville",
+      "adjacencyList": [
+        { "destination": 85, "distance": 7.3421501027097165 },
+        { "destination": 87, "distance": 6.698823380894327 }
+      ]
+    },
+    {
+      "id": 87,
+      "type": "route",
+      "name": "esplanade des arts",
+      "adjacencyList": [
+        { "destination": 86, "distance": 8.080306846959333 },
+        { "destination": 88, "distance": 5.579186693090795 }
+      ]
+    },
+    {
+      "id": 88,
+      "type": "route",
+      "name": "jules ferry",
+      "adjacencyList": [
+        { "destination": 87, "distance": 6.111151541185334 },
+        { "destination": 89, "distance": 8.801451947058387 }
+      ]
+    },
+    {
+      "id": 89,
+      "type": "route",
+      "name": "cordière",
+      "adjacencyList": [
+        { "destination": 88, "distance": 3.3218901833592476 },
+        { "destination": 90, "distance": 3.465484474689063 }
+      ]
+    },
+    {
+      "id": 90,
+      "type": "parc relais TCL",
+      "name": "st-priest bel-air",
+      "adjacencyList": [{ "destination": 89, "distance": 8.497971247499601 }]
+    },
+    {
+      "id": 91,
+      "type": "route",
+      "name": "montrechet",
+      "adjacencyList": [{ "destination": 92, "distance": 7.1401157182426775 }]
+    },
+    {
+      "id": 92,
+      "type": "route",
+      "name": "sainte-blandine",
+      "adjacencyList": [
+        { "destination": 91, "distance": 8.384976410138517 },
+        { "destination": 93, "distance": 3.2740459649447544 }
+      ]
+    },
+    {
+      "id": 93,
+      "type": "route",
+      "name": "suchet",
+      "adjacencyList": [
+        { "destination": 92, "distance": 3.564961974297125 },
+        { "destination": 94, "distance": 4.884242097956497 }
+      ]
+    },
+    {
+      "id": 94,
+      "type": "gare",
+      "name": "perrache",
+      "adjacencyList": [
+        { "destination": 93, "distance": 9.241722814467504 },
+        { "destination": 95, "distance": 2.7976901076038043 },
+        { "destination": 28, "distance": 9.65089919252016 },
+        { "destination": 64, "distance": 4.707124249091001 }
+      ]
+    },
+    {
+      "id": 95,
+      "type": "route",
+      "name": "quai claude bernard",
+      "adjacencyList": [
+        { "destination": 94, "distance": 2.428727447395472 },
+        { "destination": 96, "distance": 4.312655029933156 }
+      ]
+    },
+    {
+      "id": 96,
+      "type": "route",
+      "name": "rue de l'université",
+      "adjacencyList": [
+        { "destination": 95, "distance": 2.177030716262488 },
+        { "destination": 97, "distance": 2.610195769410174 }
+      ]
+    },
+    {
+      "id": 97,
+      "type": "route",
+      "name": "saint-andré",
+      "adjacencyList": [
+        { "destination": 96, "distance": 8.223046902379277 },
+        { "destination": 5, "distance": 9.555881693025079 }
+      ]
+    },
+    {
+      "id": 98,
+      "type": "route",
+      "name": "libeté",
+      "adjacencyList": [
+        { "destination": 5, "distance": 4.195024508652482 },
+        { "destination": 99, "distance": 8.470239652622736 }
+      ]
+    },
+    {
+      "id": 99,
+      "type": "route",
+      "name": "saxe-préfecture",
+      "adjacencyList": [
+        { "destination": 98, "distance": 9.277851230213852 },
+        { "destination": 100, "distance": 2.007323150584929 }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "route",
+      "name": "palais de justice mairie du 3 éme",
+      "adjacencyList": [
+        { "destination": 99, "distance": 9.462760132081087 },
+        { "destination": 101, "distance": 4.50309361454355 }
+      ]
+    },
+    {
+      "id": 101,
+      "type": "route",
+      "name": "part-dieu-servient",
+      "adjacencyList": [
+        { "destination": 100, "distance": 5.28555209592259 },
+        { "destination": 22, "distance": 4.8241751147024505 }
+      ]
+    },
+    {
+      "id": 102,
+      "type": "route",
+      "name": "thiers-lafayette",
+      "adjacencyList": [
+        { "destination": 22, "distance": 9.392472284840055 },
+        { "destination": 103, "distance": 8.240314281709063 },
+        { "destination": 132, "distance": 7.456042620891097 },
+        { "destination": 133, "distance": 7.225834607861314 }
+      ]
+    },
+    {
+      "id": 103,
+      "type": "route",
+      "name": "collège bellecombe",
+      "adjacencyList": [
+        { "destination": 102, "distance": 5.585529774014848 },
+        { "destination": 20, "distance": 9.814844318159652 }
+      ]
+    },
+    {
+      "id": 104,
+      "type": "route",
+      "name": "le tonkin",
+      "adjacencyList": [
+        { "destination": 20, "distance": 8.447685988376833 },
+        { "destination": 105, "distance": 2.533215325265962 }
+      ]
+    },
+    {
+      "id": 105,
+      "type": "route",
+      "name": "condorcet",
+      "adjacencyList": [
+        { "destination": 104, "distance": 4.002465263664458 },
+        { "destination": 106, "distance": 6.893235740552592 }
+      ]
+    },
+    {
+      "id": 106,
+      "type": "route",
+      "name": "université lyon 1",
+      "adjacencyList": [
+        { "destination": 105, "distance": 7.1180264721747175 },
+        { "destination": 107, "distance": 2.6116170020713536 }
+      ]
+    },
+    {
+      "id": 107,
+      "type": "route",
+      "name": "la doua-gaston berger",
+      "adjacencyList": [
+        { "destination": 106, "distance": 5.428606985100814 },
+        { "destination": 108, "distance": 8.899614810380884 }
+      ]
+    },
+    {
+      "id": 108,
+      "type": "route",
+      "name": "INSA-einstein",
+      "adjacencyList": [
+        { "destination": 109, "distance": 2.999888481585069 },
+        { "destination": 107, "distance": 9.047140300550701 }
+      ]
+    },
+    {
+      "id": 109,
+      "type": "route",
+      "name": "croix-luizet",
+      "adjacencyList": [
+        { "destination": 108, "distance": 6.766353865139616 },
+        { "destination": 110, "distance": 8.688445205730538 }
+      ]
+    },
+    {
+      "id": 110,
+      "type": "parc relais TCL",
+      "name": "IUT-feyssine",
+      "adjacencyList": [{ "destination": 109, "distance": 4.070703600923405 }]
+    },
+    {
+      "id": 111,
+      "type": "route",
+      "name": "vaulx-en velin la grappinières",
+      "adjacencyList": [{ "destination": 112, "distance": 2.911221318976702 }]
+    },
+    {
+      "id": 112,
+      "type": "route",
+      "name": "vaulx les grolières",
+      "adjacencyList": [
+        { "destination": 111, "distance": 9.174702621417376 },
+        { "destination": 113, "distance": 4.573152949940738 }
+      ]
+    },
+    {
+      "id": 113,
+      "type": "route",
+      "name": "mas du taureau",
+      "adjacencyList": [
+        { "destination": 112, "distance": 8.365115784701462 },
+        { "destination": 114, "distance": 7.018953727512541 }
+      ]
+    },
+    {
+      "id": 114,
+      "type": "route",
+      "name": "lesire",
+      "adjacencyList": [
+        { "destination": 113, "distance": 4.014732696215223 },
+        { "destination": 115, "distance": 4.5756834201338314 }
+      ]
+    },
+    {
+      "id": 115,
+      "type": "route",
+      "name": "grand vire",
+      "adjacencyList": [
+        { "destination": 114, "distance": 6.065693324062972 },
+        { "destination": 116, "distance": 9.89859411579382 }
+      ]
+    },
+    {
+      "id": 116,
+      "type": "route",
+      "name": "hotel de ville campus",
+      "adjacencyList": [
+        { "destination": 115, "distance": 9.84847975433708 },
+        { "destination": 117, "distance": 5.3676887284123875 }
+      ]
+    },
+    {
+      "id": 117,
+      "type": "route",
+      "name": "cuzin stalingrad",
+      "adjacencyList": [
+        { "destination": 116, "distance": 2.821252315893096 },
+        { "destination": 118, "distance": 5.8311881395215845 }
+      ]
+    },
+    {
+      "id": 118,
+      "type": "route",
+      "name": "lefèvre",
+      "adjacencyList": [
+        { "destination": 117, "distance": 7.890390049902521 },
+        { "destination": 119, "distance": 3.5291882150543206 }
+      ]
+    },
+    {
+      "id": 119,
+      "type": "route",
+      "name": "pont des planches",
+      "adjacencyList": [
+        { "destination": 118, "distance": 9.143785878474366 },
+        { "destination": 36, "distance": 9.060010486674397 }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "montessuy calmette",
+      "adjacencyList": [
+        { "destination": 138, "distance": 3.562923964162378 },
+        { "destination": 155, "distance": 5.7671587238009145 }
+      ]
+    },
+    {
+      "id": 121,
+      "type": "route",
+      "name": "léon blum",
+      "adjacencyList": [
+        { "destination": 36, "distance": 5.181481252736699 },
+        { "destination": 122, "distance": 4.324920256087946 }
+      ]
+    },
+    {
+      "id": 122,
+      "type": "route",
+      "name": "bon coin",
+      "adjacencyList": [
+        { "destination": 121, "distance": 5.891077590529925 },
+        { "destination": 123, "distance": 5.629898788193877 }
+      ]
+    },
+    {
+      "id": 123,
+      "type": "route",
+      "name": "cyprian léon blum",
+      "adjacencyList": [
+        { "destination": 122, "distance": 5.731292268709147 },
+        { "destination": 124, "distance": 5.565335691311466 }
+      ]
+    },
+    {
+      "id": 124,
+      "type": "route",
+      "name": "bernaix",
+      "adjacencyList": [
+        { "destination": 123, "distance": 7.891856892430473 },
+        { "destination": 125, "distance": 3.6538673063998193 }
+      ]
+    },
+    {
+      "id": 125,
+      "type": "route",
+      "name": "poizat",
+      "adjacencyList": [
+        { "destination": 124, "distance": 9.573296078349324 },
+        { "destination": 126, "distance": 3.6532597195114302 }
+      ]
+    },
+    {
+      "id": 126,
+      "type": "route",
+      "name": "grandclément",
+      "adjacencyList": [
+        { "destination": 125, "distance": 7.45839983613274 },
+        { "destination": 127, "distance": 3.0914632969133553 }
+      ]
+    },
+    {
+      "id": 127,
+      "type": "route",
+      "name": "blanqui centre mémoires et société",
+      "adjacencyList": [
+        { "destination": 126, "distance": 5.960688542061327 },
+        { "destination": 128, "distance": 5.686810454246956 }
+      ]
+    },
+    {
+      "id": 128,
+      "type": "route",
+      "name": "l.braille-montaland",
+      "adjacencyList": [
+        { "destination": 127, "distance": 4.933626049735285 },
+        { "destination": 129, "distance": 9.484250080063998 }
+      ]
+    },
+    {
+      "id": 129,
+      "type": "route",
+      "name": "verlaine",
+      "adjacencyList": [
+        { "destination": 128, "distance": 5.371100218376682 },
+        { "destination": 130, "distance": 3.9405944503234647 }
+      ]
+    },
+    {
+      "id": 130,
+      "type": "route",
+      "name": "institut d'art contemporain",
+      "adjacencyList": [
+        { "destination": 129, "distance": 8.028542093046324 },
+        { "destination": 131, "distance": 8.60195845489814 }
+      ]
+    },
+    {
+      "id": 131,
+      "type": "route",
+      "name": "alsace",
+      "adjacencyList": [
+        { "destination": 130, "distance": 3.4938272442212437 },
+        { "destination": 132, "distance": 6.127510183117359 }
+      ]
+    },
+    {
+      "id": 132,
+      "type": "route",
+      "name": "ste-geneviève",
+      "adjacencyList": [
+        { "destination": 131, "distance": 9.145017105548012 },
+        { "destination": 102, "distance": 2.2986485165416664 }
+      ]
+    },
+    {
+      "id": 133,
+      "type": "route",
+      "name": "part-dieu jules favre",
+      "adjacencyList": [
+        { "destination": 102, "distance": 2.402987648445716 },
+        { "destination": 134, "distance": 2.13191510672136 },
+        { "destination": 21, "distance": 8.561578897172833 }
+      ]
+    },
+    {
+      "id": 134,
+      "type": "route",
+      "name": "garibaldi-lafayette",
+      "adjacencyList": [
+        { "destination": 133, "distance": 5.902576158995673 },
+        { "destination": 135, "distance": 7.808281843457877 }
+      ]
+    },
+    {
+      "id": 135,
+      "type": "route",
+      "name": "les halles paul bocuse",
+      "adjacencyList": [
+        { "destination": 134, "distance": 4.990519861284836 },
+        { "destination": 136, "distance": 4.793092993893875 }
+      ]
+    },
+    {
+      "id": 136,
+      "type": "route",
+      "name": "saxe-lafayette",
+      "adjacencyList": [
+        { "destination": 135, "distance": 9.367453678164495 },
+        { "destination": 137, "distance": 5.889277666986862 }
+      ]
+    },
+    {
+      "id": 137,
+      "type": "route",
+      "name": "molière",
+      "adjacencyList": [
+        { "destination": 136, "distance": 5.3618804503494655 },
+        { "destination": 29, "distance": 7.151047925524994 }
+      ]
+    },
+    {
+      "id": 138,
+      "type": "route",
+      "name": "impasse mathieu",
+      "adjacencyList": [
+        { "destination": 143, "distance": 2.1484772795168467 },
+        { "destination": 120, "distance": 7.921387338571174 }
+      ]
+    },
+    {
+      "id": 139,
+      "type": "route",
+      "name": "bat d'argent",
+      "adjacencyList": [
+        { "destination": 29, "distance": 3.545816036342819 },
+        { "destination": 19, "distance": 3.7968843079616637 }
+      ]
+    },
+    {
+      "id": 140,
+      "type": "route",
+      "name": "la feuillée",
+      "adjacencyList": [
+        { "destination": 141, "distance": 3.913200766305195 },
+        { "destination": 142, "distance": 8.978805601093306 }
+      ]
+    },
+    {
+      "id": 141,
+      "type": "route",
+      "name": "terreaux",
+      "adjacencyList": [
+        { "destination": 19, "distance": 7.504652944659817 },
+        { "destination": 140, "distance": 9.490057131937567 }
+      ]
+    },
+    {
+      "id": 142,
+      "type": "gare",
+      "name": "gare st paul",
+      "adjacencyList": [{ "destination": 140, "distance": 9.87058190189643 }]
+    },
+    {
+      "id": 143,
+      "type": "route",
+      "name": "square elie vignal",
+      "adjacencyList": [
+        { "destination": 15, "distance": 5.887348702948847 },
+        { "destination": 138, "distance": 9.319142832486287 }
+      ]
+    },
+    {
+      "id": 144,
+      "type": "city",
+      "name": "fourvière",
+      "adjacencyList": [{ "destination": 3, "distance": 8.468963493476705 }]
+    },
+    {
+      "id": 145,
+      "type": "route",
+      "name": "vitton-belges",
+      "adjacencyList": [
+        { "destination": 146, "distance": 9.680847213503052 },
+        { "destination": 21, "distance": 7.464934830360669 }
+      ]
+    },
+    {
+      "id": 146,
+      "type": "route",
+      "name": "parc tete d'or-duquesne",
+      "adjacencyList": [
+        { "destination": 147, "distance": 9.003088081271844 },
+        { "destination": 145, "distance": 7.785375103903775 }
+      ]
+    },
+    {
+      "id": 147,
+      "type": "route",
+      "name": "museum",
+      "adjacencyList": [
+        { "destination": 148, "distance": 9.912230368925686 },
+        { "destination": 146, "distance": 4.297661814448894 }
+      ]
+    },
+    {
+      "id": 148,
+      "type": "route",
+      "name": "parc tete d'or churchill",
+      "adjacencyList": [
+        { "destination": 148, "distance": 3.6894981021754027 },
+        { "destination": 147, "distance": 8.609192731928621 },
+        { "destination": 149, "distance": 8.743100991582331 }
+      ]
+    },
+    {
+      "id": 149,
+      "type": "route",
+      "name": "interpol",
+      "adjacencyList": [
+        { "destination": 150, "distance": 6.377757246805674 },
+        { "destination": 148, "distance": 8.743100991582331 }
+      ]
+    },
+    {
+      "id": 150,
+      "type": "route",
+      "name": "musée d'art contemporain ",
+      "adjacencyList": [
+        { "destination": 151, "distance": 9.287602051906736 },
+        { "destination": 149, "distance": 5.331315624293756 }
+      ]
+    },
+    {
+      "id": 151,
+      "type": "route",
+      "name": "cité internationale centre de congrès",
+      "adjacencyList": [
+        { "destination": 152, "distance": 9.393138325391256 },
+        { "destination": 150, "distance": 7.581424405646244 }
+      ]
+    },
+    {
+      "id": 152,
+      "type": "route",
+      "name": "st-clair square brosset",
+      "adjacencyList": [
+        { "destination": 153, "distance": 4.709623139462973 },
+        { "destination": 151, "distance": 8.53491272091839 }
+      ]
+    },
+    {
+      "id": 153,
+      "type": "route",
+      "name": "montrée des soldats",
+      "adjacencyList": [
+        { "destination": 154, "distance": 8.70099293667836 },
+        { "destination": 152, "distance": 2.5355479186839407 }
+      ]
+    },
+    {
+      "id": 154,
+      "type": "route",
+      "name": "caluire place foch",
+      "adjacencyList": [
+        { "destination": 155, "distance": 8.488009171931203 },
+        { "destination": 153, "distance": 9.077658380331238 }
+      ]
+    },
+    {
+      "id": 155,
+      "type": "route",
+      "name": "montessuy fleming",
+      "adjacencyList": [
+        { "destination": 120, "distance": 9.874970496983243 },
+        { "destination": 154, "distance": 5.6439119876713555 }
+      ]
+    }
+  ]
+  

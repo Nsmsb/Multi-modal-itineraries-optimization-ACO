@@ -1,0 +1,22 @@
+{
+  "name": "mcsp-aco",
+  "version": "1.0.0",
+  "description": "anct colony metaheuristic based algorithm to find a multicreatria shortest path in a multi modal transport graph.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aco",
+    "ant",
+    "colony",
+    "optimization",
+    "SP",
+    "shortest",
+    "path",
+    "transport",
+    "network"
+  ],
+  "author": "Nassim Sbaihia, Maria Rakad",
+  "license": "MIT"
+}
