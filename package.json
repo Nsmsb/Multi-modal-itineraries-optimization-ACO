@@ -1,0 +1,22 @@
+{
+  "name": "pfe",
+  "version": "1.0.0",
+  "description": "Multi-criteria shortest path problem in multimodal transport network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "keywords": [
+    "SP"
+  ],
+  "author": "Sbasihia Nassim, Rakad Maria",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
