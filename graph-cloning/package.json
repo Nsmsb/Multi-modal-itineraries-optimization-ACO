@@ -1,0 +1,16 @@
+{
+  "name": "graph-cloning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nsm",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "inquirer-prompt-suggest": "^0.1.0",
+    "prompt": "^1.0.0"
+  }
+}
